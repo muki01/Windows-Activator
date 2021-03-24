@@ -1,3 +1,4 @@
+mode 120, 28
 @echo off
 
 title Windows Activator by Muki
@@ -66,7 +67,12 @@ echo "      \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \___/ \___/    
 echo.
 echo        You are selected WINDOWS 10 Home
 echo.
-pause
+echo                        [1]Continue                       [2]Back
+echo.
+set /p op=">>> "
+if %op%==1 goto w10h
+if %op%==2 goto menu
+:w10h
 ping localhost -n 3 >nul
 slmgr /ipk TX9XD-98N7V-6WMQ6-BX7FG-H8Q99
 slmgr /skms kms8.msguides.com
@@ -91,7 +97,12 @@ echo "      \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \___/ \___/    
 echo.
 echo        You are selected WINDOWS 10 Pro
 echo.
-pause
+echo                        [1]Continue                       [2]Back
+echo.
+set /p op=">>> "
+if %op%==1 goto w10p
+if %op%==2 goto menu
+:w10p
 ping localhost -n 3 >nul
 slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
 slmgr /skms kms8.msguides.com
@@ -107,16 +118,21 @@ goto menu
 :3
 cls
 echo.
-echo        _    _  _____  _   _ ______  _____  _    _  _____     __   _____     _____     _                     _    _               
-echo "     | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   /  | |  _  |   |  ___|   | |                   | |  (_)              
-echo "     | |  | |  | |  |  \| || | | || | | || |  | |\ `--.    `| | | |/' |   | |__   __| | _   _   ___  __ _ | |_  _   ___   _ __  
-echo "     | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    | | |  /| |   |  __| / _` || | | | / __|/ _` || __|| | / _ \ | '_ \ 
-echo "     \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   _| |_\ |_/ /   | |___| (_| || |_| || (__| (_| || |_ | || (_) || | | |
-echo "      \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \___/ \___/    \____/ \__,_| \__,_| \___|\__,_| \__||_| \___/ |_| |_|
+echo      _    _  _____  _   _ ______  _____  _    _  _____     __   _____     _____     _                     _    _     
+echo "   | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   /  | |  _  |   |  ___|   | |                   | |  (_)    
+echo "   | |  | |  | |  |  \| || | | || | | || |  | |\ `--.    `| | | |/' |   | |__   __| | _   _   ___  __ _ | |_  _     
+echo "   | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    | | |  /| |   |  __| / _` || | | | / __|/ _` || __|| |    
+echo "   \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   _| |_\ |_/ /   | |___| (_| || |_| || (__| (_| || |_ | | _  
+echo "    \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \___/ \___/    \____/ \__,_| \__,_| \___|\__,_| \__||_|(_) 
 echo.
 echo        You are selected WINDOWS 10 Education
 echo.
-pause
+echo                        [1]Continue                       [2]Back
+echo.
+set /p op=">>> "
+if %op%==1 goto w10ed
+if %op%==2 goto menu
+:w10ed
 ping localhost -n 3 >nul
 slmgr /ipk NW6C2-QMPVW-D7KKK-3GKT6-VCFB2
 slmgr /skms kms8.msguides.com
@@ -132,16 +148,22 @@ goto menu
 :4
 cls
 echo.
-echo        _    _  _____  _   _ ______  _____  _    _  _____     __   _____     _____        _                            _            
-echo "     | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   /  | |  _  |   |  ___|      | |                          (_)           
-echo "     | |  | |  | |  |  \| || | | || | | || |  | |\ `--.    `| | | |/' |   | |__  _ __  | |_  ___  _ __  _ __   _ __  _  ___   ___ 
-echo "     | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    | | |  /| |   |  __|| '_ \ | __|/ _ \| '__|| '_ \ | '__|| |/ __| / _ \
-echo "     \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   _| |_\ |_/ /   | |___| | | || |_|  __/| |   | |_) || |   | |\__ \|  __/
-echo "      \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \___/ \___/    \____/|_| |_| \__|\___||_|   | .__/ |_|   |_||___/ \___|
-echo "                                                                                                       | |                        
-echo "      You are selected WINDOWS 10 Education                                                            |_|                        
+echo       _    _  _____  _   _ ______  _____  _    _  _____     __   _____     _____        _                            
+echo "    | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   /  | |  _  |   |  ___|      | |                           
+echo "    | |  | |  | |  |  \| || | | || | | || |  | |\ `--.    `| | | |/' |   | |__  _ __  | |_  ___  _ __  _ __   _ __  
+echo "    | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    | | |  /| |   |  __|| '_ \ | __|/ _ \| '__|| '_ \ | '__| 
+echo "    \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   _| |_\ |_/ /   | |___| | | || |_|  __/| |   | |_) || | _  
+echo "     \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \___/ \___/    \____/|_| |_| \__|\___||_|   | .__/ |_|(_) 
+echo "                                                                                                      | |           
+echo "                                                                                                      |_|           
+echo        You are selected WINDOWS 10 Education
 echo.
-pause
+echo                        [1]Continue                       [2]Back
+echo.
+set /p op=">>> "
+if %op%==1 goto w10en
+if %op%==2 goto menu
+:w10en
 ping localhost -n 3 >nul
 slmgr /ipk NPPR9-FWDCX-D2C8J-H872K-2YT43
 slmgr /skms kms8.msguides.com
@@ -166,7 +188,12 @@ echo "      \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \_____/   \_| |
 echo.
 echo        You are selected WINDOWS 8 Home               NOT-WORKING
 echo.
-pause
+echo                        [1]Continue                       [2]Back
+echo.
+set /p op=">>> "
+if %op%==1 goto w8h
+if %op%==2 goto menu
+:w8h
 ping localhost -n 3 >nul
 slmgr /ipk 
 slmgr /skms kms8.msguides.com
@@ -191,7 +218,12 @@ echo "      \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \_____/   \_|  
 echo.
 echo        You are selected WINDOWS 8 Pro               NOT-WORKING
 echo.
-pause
+echo                        [1]Continue                       [2]Back
+echo.
+set /p op=">>> "
+if %op%==1 goto w8p
+if %op%==2 goto menu
+:w8p
 ping localhost -n 3 >nul
 slmgr /ipk 
 slmgr /skms kms8.msguides.com
@@ -207,16 +239,21 @@ goto menu
 :7
 cls
 echo.
-echo        _    _  _____  _   _ ______  _____  _    _  _____     _____     _____        _                            _            
-echo "     | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   |  _  |   |  ___|      | |                          (_)           
-echo "     | |  | |  | |  |  \| || | | || | | || |  | |\ `--.     \ V /    | |__  _ __  | |_  ___  _ __  _ __   _ __  _  ___   ___ 
-echo "     | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    / _ \    |  __|| '_ \ | __|/ _ \| '__|| '_ \ | '__|| |/ __| / _ \
-echo "     \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   | |_| |   | |___| | | || |_|  __/| |   | |_) || |   | |\__ \|  __/
-echo "      \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \_____/   \____/|_| |_| \__|\___||_|   | .__/ |_|   |_||___/ \___|
-echo "                                                                                                  | |                        
-echo "      You are selected WINDOWS 8 Enterprise               NOT-WORKING                             |_|
+echo "       _    _  _____  _   _ ______  _____  _    _  _____     _____     _____        _                           
+echo "      | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   |  _  |   |  ___|      | |                          
+echo "      | |  | |  | |  |  \| || | | || | | || |  | |\ `--.     \ V /    | |__  _ __  | |_  ___  _ __  _ __   _ __ 
+echo "      | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    / _ \    |  __|| '_ \ | __|/ _ \| '__|| '_ \ | '__|
+echo "      \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   | |_| |   | |___| | | || |_|  __/| |   | |_) || | _ 
+echo "       \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \_____/   \____/|_| |_| \__|\___||_|   | .__/ |_|(_)
+echo "                                                                                                   | |          
+echo "      You are selected WINDOWS 8 Enterprise               NOT-WORKING                              |_|          
 echo.
-pause
+echo                        [1]Continue                       [2]Back
+echo.
+set /p op=">>> "
+if %op%==1 goto w8en
+if %op%==2 goto menu
+:w8en
 ping localhost -n 3 >nul
 slmgr /ipk 
 slmgr /skms kms8.msguides.com
@@ -228,6 +265,126 @@ echo =====================================
 pause
 goto menu
 
+
+:9
+cls
+echo.
+echo        _    _  _____  _   _ ______  _____  _    _  _____     ______    _   _                         
+echo "     | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   |___  /   | | | |                        
+echo "     | |  | |  | |  |  \| || | | || | | || |  | |\ `--.       / /    | |_| |  ___   _ __ ___    ___ 
+echo "     | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \     / /     |  _  | / _ \ | '_ ` _ \  / _ \
+echo "     \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   ./ /      | | | || (_) || | | | | ||  __/
+echo "      \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \_/       \_| |_/ \___/ |_| |_| |_| \___|
+echo.
+echo        You are selected WINDOWS 7 Home               NOT-WORKING
+echo.
+echo                        [1]Continue                       [2]Back
+echo.
+set /p op=">>> "
+if %op%==1 goto w7h
+if %op%==2 goto menu
+:w7h
+ping localhost -n 3 >nul
+slmgr /ipk 
+slmgr /skms kms8.msguides.com
+slmgr /ato
+cls
+echo =====================================
+echo. Windows 7 is Activated Succesfully.
+echo =====================================
+pause
+goto menu
+
+
+
+:10
+cls
+echo.
+echo        _    _  _____  _   _ ______  _____  _    _  _____     ______   ______            
+echo "     | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   |___  /   | ___ \           
+echo "     | |  | |  | |  |  \| || | | || | | || |  | |\ `--.       / /    | |_/ /_ __  ___  
+echo "     | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \     / /     |  __/| '__|/ _ \ 
+echo "     \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   ./ /      | |   | |  | (_) |
+echo "      \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \_/       \_|   |_|   \___/ 
+echo.
+echo        You are selected WINDOWS 7 Pro               NOT-WORKING
+echo.
+echo                        [1]Continue                       [2]Back
+echo.
+set /p op=">>> "
+if %op%==1 goto w7p
+if %op%==2 goto menu
+:w7p
+ping localhost -n 3 >nul
+slmgr /ipk 
+slmgr /skms kms8.msguides.com
+slmgr /ato
+cls
+echo =====================================
+echo. Windows 7 is Activated Succesfully.
+echo =====================================
+pause
+goto menu
+
+
+:11
+cls
+echo.
+echo       _    _  _____  _   _ ______  _____  _    _  _____     ______    _   _  _  _    _                    _        
+echo "    | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   |___  /   | | | || || |  (_)                  | |       
+echo "    | |  | |  | |  |  \| || | | || | | || |  | |\ `--.       / /    | | | || || |_  _  _ __ ___    __ _ | |_  ___ 
+echo "    | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \     / /     | | | || || __|| || '_ ` _ \  / _` || __|/ _ \
+echo "    \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   ./ /      | |_| || || |_ | || | | | | || (_| || |_|  __/
+echo "     \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \_/        \___/ |_| \__||_||_| |_| |_| \__,_| \__|\___|
+echo.
+echo        You are selected WINDOWS 7 Ultimate               NOT-WORKING
+echo.
+echo                        [1]Continue                       [2]Back
+echo.
+set /p op=">>> "
+if %op%==1 goto w7ul
+if %op%==2 goto menu
+:w7ul
+ping localhost -n 3 >nul
+slmgr /ipk 
+slmgr /skms kms8.msguides.com
+slmgr /ato
+cls
+echo =====================================
+echo. Windows 7 is Activated Succesfully.
+echo =====================================
+pause
+goto menu
+
+
+:12
+cls
+echo.
+echo "       _    _  _____  _   _ ______  _____  _    _  _____     ______    _____        _                           
+echo "      | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   |___  /   |  ___|      | |                          
+echo "      | |  | |  | |  |  \| || | | || | | || |  | |\ `--.       / /    | |__  _ __  | |_  ___  _ __  _ __   _ __ 
+echo "      | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \     / /     |  __|| '_ \ | __|/ _ \| '__|| '_ \ | '__|
+echo "      \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   ./ /      | |___| | | || |_|  __/| |   | |_) || | _ 
+echo "       \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \_/       \____/|_| |_| \__|\___||_|   | .__/ |_|(_)
+echo "                                                                                                   | |          
+echo "          You are selected WINDOWS 7 Enterprise              NOT-WORKING                           |_|         
+echo.
+echo                        [1]Continue                       [2]Back
+echo.
+set /p op=">>> "
+if %op%==1 goto w7en
+if %op%==2 goto menu
+:w7en
+ping localhost -n 3 >nul
+slmgr /ipk 
+slmgr /skms kms8.msguides.com
+slmgr /ato
+cls
+echo =====================================
+echo. Windows 7 is Activated Succesfully.
+echo =====================================
+pause
+goto menu
 
 
 :error
