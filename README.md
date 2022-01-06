@@ -15,5 +15,5 @@ This Windows Activator gets weekly updates with new features, improvements, and 
 Be sure to check out the [changelog here]().
 
 ### This is interface of my program
-![img](https://user-images.githubusercontent.com/75759731/121789777-80910580-cbe1-11eb-8e11-88db0d8e59bd.PNG)
+![img](https://user-images.githubusercontent.com/75759731/148438309-08e998e5-03a8-4f48-b750-479c9caea8a0.PNG)
 
