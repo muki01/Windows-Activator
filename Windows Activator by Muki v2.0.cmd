@@ -22,7 +22,7 @@ echo "      | |  | |  | |  |  \| || | | || | | || |  | |\ `--.     / /_\ \  ___ 
 echo "      | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    |  _  | / __|| __|| |\ \ / // _` || __|/ _ \ | '__|
 echo "      \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /    | | | || (__ | |_ | | \ V /| (_| || |_| (_) || |   
 echo "       \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/     \_| |_/ \___| \__||_|  \_/  \__,_| \__|\___/ |_|    
-echo.         Created by Muki                                                                                    v2.0
+echo          Created by Muki                                                                                    v2.0
 echo.
 echo        Select your Windows Version and click ENTER
 echo.
@@ -79,8 +79,8 @@ echo "       | |  | |  | |  |  \| || | | || | | || |  | |\ `--.    `| | `| |    
 echo "       | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    | |  | |     |  _  | / _ \ | '_ ` _ \  / _ \
 echo "       \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   _| |__| |_    | | | || (_) || | | | | ||  __/
 echo "        \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \___/\___/    \_| |_/ \___/ |_| |_| |_| \___|
-echo "
-echo "          You are selected WINDOWS 11 Home !
+echo.
+echo            You are selected WINDOWS 11 Home !
 echo.                                                   
 echo                        [1] Continue Activation                      [2] Back to Menu
 echo.
@@ -110,8 +110,8 @@ echo "         | |  | |  | |  |  \| || | | || | | || |  | |\ `--.    `| | `| |  
 echo "         | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    | |  | |     |  __/ | '__| / _ \ 
 echo "         \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   _| |__| |_    | |    | |   | (_) |
 echo "          \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \___/\___/    \_|    |_|    \___/ 
-echo "                                                                                             
-echo "          You are selected WINDOWS 11 Pro !                     
+echo.
+echo "          You are selected WINDOWS 11 Pro !
 echo.
 echo                        [1] Continue Activation                      [2] Back to Menu
 echo.
@@ -141,8 +141,8 @@ echo "   | |  | |  | |  |  \| || | | || | | || |  | |\ `--.    `| | `| |     | |
 echo "   | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    | |  | |     |  __|  / _` || | | | / __| / _` || __|| |   
 echo "   \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   _| |__| |_    | |___ | (_| || |_| || (__ | (_| || |_ | | _ 
 echo "    \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \___/\___/    \____/  \__,_| \__,_| \___| \__,_| \__||_|(_)
-echo "                                                                                            
-echo "          You are selected WINDOWS 11 Education !                      
+echo.
+echo "          You are selected WINDOWS 11 Education !
 echo.
 echo                        [1] Continue Activation                      [2] Back to Menu
 echo.
@@ -172,8 +172,8 @@ echo "    | |  | |  | |  |  \| || | | || | | || |  | |\ `--.    `| | `| |     | 
 echo "    | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    | |  | |     |  __| | '_ \ | __| / _ \| '__|| '_ \ | '__|   
 echo "    \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   _| |__| |_    | |___ | | | || |_ |  __/| |   | |_) || | _ 
 echo "     \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \___/\___/    \____/ |_| |_| \__| \___||_|   | .__/ |_|(_)
-echo "                                                                                                       | |             
-echo "         You are selected WINDOWS 11 Education !                                                       |_|             
+echo "                                                                                                       | |
+echo "         You are selected WINDOWS 11 Education !                                                       |_|
 echo.
 echo                        [1] Continue Activation                      [2] Back to Menu
 echo.
