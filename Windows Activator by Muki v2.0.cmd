@@ -79,8 +79,8 @@ echo "       | |  | |  | |  |  \| || | | || | | || |  | |\ `--.    `| | `| |    
 echo "       | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    | |  | |     |  _  | / _ \ | '_ ` _ \  / _ \
 echo "       \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   _| |__| |_    | | | || (_) || | | | | ||  __/
 echo "        \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \___/\___/    \_| |_/ \___/ |_| |_| |_| \___|
-echo "                                                                                            
-echo "          You are selected WINDOWS 11 Home !                                      
+echo "
+echo "          You are selected WINDOWS 11 Home !
 echo.                                                   
 echo                        [1] Continue Activation                      [2] Back to Menu
 echo.
