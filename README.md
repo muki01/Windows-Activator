@@ -11,7 +11,7 @@ git clone https://github.com/muki01/Windows-Activator.git
 ```
 
 ### :scroll: Changelog
-This Windows Activator gets weekly updates with new features, improvements, and bugfixes.
+This Windows Activator gets updates with new features, improvements, and bugfixes.
 Be sure to check out the [changelog here]().
 
 ### This is interface of my program
