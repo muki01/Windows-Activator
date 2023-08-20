@@ -1,4 +1,4 @@
-# 🪟Windows-Activator
+# Windows-Activator
 
 This is my Windows Activation Program <br/>
 With this program, you can activate Windows 11, 10, 8.1, 8, and 7 for Free !
