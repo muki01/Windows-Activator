@@ -22,7 +22,7 @@ echo "      | |  | |  | |  |  \| || | | || | | || |  | |\ `--.     / /_\ \  ___ 
 echo "      | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    |  _  | / __|| __|| |\ \ / // _` || __|/ _ \ | '__|
 echo "      \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /    | | | || (__ | |_ | | \ V /| (_| || |_| (_) || |   
 echo "       \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/     \_| |_/ \___| \__||_|  \_/  \__,_| \__|\___/ |_|    
-echo          Created by Muki                                                                                    v2.0
+echo          Created by Muki                            github.com/muki01                                       v2.0
 echo.
 echo        Select your Windows Version and click ENTER
 echo.
