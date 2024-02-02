@@ -73,12 +73,12 @@ goto error
 :1
 cls
 echo.
-echo          _    _  _____  _   _ ______  _____  _    _  _____     __   __       _   _                         
-echo "       | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   /  | /  |     | | | |                        
-echo "       | |  | |  | |  |  \| || | | || | | || |  | |\ `--.    `| | `| |     | |_| |  ___   _ __ ___    ___ 
-echo "       | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    | |  | |     |  _  | / _ \ | '_ ` _ \  / _ \
-echo "       \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   _| |__| |_    | | | || (_) || | | | | ||  __/
-echo "        \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \___/\___/    \_| |_/ \___/ |_| |_| |_| \___|
+echo         _    _  _____  _   _ ______  _____  _    _  _____     __   __       _   _                         
+echo "      | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   /  | /  |     | | | |                        
+echo "      | |  | |  | |  |  \| || | | || | | || |  | |\ `--.    `| | `| |     | |_| |  ___   _ __ ___    ___ 
+echo "      | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    | |  | |     |  _  | / _ \ | '_ ` _ \  / _ \
+echo "      \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   _| |__| |_    | | | || (_) || | | | | ||  __/
+echo "       \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \___/\___/    \_| |_/ \___/ |_| |_| |_| \___|
 echo.
 echo            You are selected WINDOWS 11 Home !
 echo.                                                   
@@ -89,13 +89,13 @@ if %op%==1 goto w11h
 if %op%==2 goto menu
 goto error2
 :w11h
-ping localhost -n 3 >nul
 slmgr.vbs /ipk TX9XD-98N7V-6WMQ6-BX7FG-H8Q99
 slmgr.vbs /skms kms.lotro.cc
 slmgr.vbs /ato
 cls
+echo.
 echo =====================================
-echo. Windows 11 is Activated Succesfully.
+echo  Windows 11 is Activated Succesfully.
 echo =====================================
 pause
 goto menu
@@ -104,14 +104,14 @@ goto menu
 :2
 cls
 echo.
-echo            _    _  _____  _   _ ______  _____  _    _  _____     __   __      ______              
-echo "         | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   /  | /  |     | ___ \             
-echo "         | |  | |  | |  |  \| || | | || | | || |  | |\ `--.    `| | `| |     | |_/ / _ __   ___  
-echo "         | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    | |  | |     |  __/ | '__| / _ \ 
-echo "         \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   _| |__| |_    | |    | |   | (_) |
-echo "          \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \___/\___/    \_|    |_|    \___/ 
+echo         _    _  _____  _   _ ______  _____  _    _  _____     __   __      ______              
+echo "      | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   /  | /  |     | ___ \             
+echo "      | |  | |  | |  |  \| || | | || | | || |  | |\ `--.    `| | `| |     | |_/ / _ __   ___  
+echo "      | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    | |  | |     |  __/ | '__| / _ \ 
+echo "      \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   _| |__| |_    | |    | |   | (_) |
+echo "       \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \___/\___/    \_|    |_|    \___/ 
 echo.
-echo "          You are selected WINDOWS 11 Pro !
+echo            You are selected WINDOWS 11 Pro !
 echo.
 echo                        [1] Continue Activation                      [2] Back to Menu
 echo.
@@ -120,13 +120,13 @@ if %op%==1 goto w11p
 if %op%==2 goto menu
 goto error2
 :w11p
-ping localhost -n 3 >nul
 slmgr.vbs /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
 slmgr.vbs /skms kms.lotro.cc
 slmgr.vbs /ato
 cls
+echo.
 echo =====================================
-echo. Windows 11 is Activated Succesfully.
+echo  Windows 11 is Activated Succesfully.
 echo =====================================
 pause
 goto menu
@@ -142,7 +142,7 @@ echo "   | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    | |  | |     |  
 echo "   \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   _| |__| |_    | |___ | (_| || |_| || (__ | (_| || |_ | | _ 
 echo "    \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \___/\___/    \____/  \__,_| \__,_| \___| \__,_| \__||_|(_)
 echo.
-echo "          You are selected WINDOWS 11 Education !
+echo            You are selected WINDOWS 11 Education !
 echo.
 echo                        [1] Continue Activation                      [2] Back to Menu
 echo.
@@ -151,13 +151,13 @@ if %op%==1 goto w11ed
 if %op%==2 goto menu
 goto error2
 :w11ed
-ping localhost -n 3 >nul
 slmgr.vbs /ipk NW6C2-QMPVW-D7KKK-3GKT6-VCFB2
 slmgr.vbs /skms kms.lotro.cc
 slmgr.vbs /ato
 cls
+echo.
 echo =====================================
-echo. Windows 11 is Activated Succesfully.
+echo  Windows 11 is Activated Succesfully.
 echo =====================================
 pause
 goto menu
@@ -166,14 +166,14 @@ goto menu
 :4
 cls
 echo.
-echo       _    _  _____  _   _ ______  _____  _    _  _____     __   __       _____         _                               
-echo "    | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   /  | /  |     |  ___|       | |                              
-echo "    | |  | |  | |  |  \| || | | || | | || |  | |\ `--.    `| | `| |     | |__   _ __  | |_   ___  _ __  _ __   _ __    
-echo "    | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    | |  | |     |  __| | '_ \ | __| / _ \| '__|| '_ \ | '__|   
-echo "    \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   _| |__| |_    | |___ | | | || |_ |  __/| |   | |_) || | _ 
-echo "     \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \___/\___/    \____/ |_| |_| \__| \___||_|   | .__/ |_|(_)
-echo "                                                                                                       | |
-echo "         You are selected WINDOWS 11 Education !                                                       |_|
+echo      _    _  _____  _   _ ______  _____  _    _  _____     __   __       _____         _                               
+echo "   | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   /  | /  |     |  ___|       | |                              
+echo "   | |  | |  | |  |  \| || | | || | | || |  | |\ `--.    `| | `| |     | |__   _ __  | |_   ___  _ __  _ __   _ __    
+echo "   | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    | |  | |     |  __| | '_ \ | __| / _ \| '__|| '_ \ | '__|   
+echo "   \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   _| |__| |_    | |___ | | | || |_ |  __/| |   | |_) || | _ 
+echo "    \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \___/\___/    \____/ |_| |_| \__| \___||_|   | .__/ |_|(_)
+echo "                                                                                                      | |
+echo "          You are selected WINDOWS 11 Enterprise !                                                    |_|
 echo.
 echo                        [1] Continue Activation                      [2] Back to Menu
 echo.
@@ -182,13 +182,13 @@ if %op%==1 goto w11en
 if %op%==2 goto menu
 goto error2
 :w11en
-ping localhost -n 3 >nul
 slmgr.vbs /ipk NPPR9-FWDCX-D2C8J-H872K-2YT43B8YKP-D69TJ
 slmgr.vbs /skms kms.lotro.cc
 slmgr.vbs /ato
 cls
+echo.
 echo =====================================
-echo. Windows 11 is Activated Succesfully.
+echo  Windows 11 is Activated Succesfully.
 echo =====================================
 pause
 goto menu
@@ -197,14 +197,14 @@ goto menu
 :5
 cls
 echo.
-echo        _    _  _____  _   _ ______  _____  _    _  _____     __   _____     _   _                          
-echo "     | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   /  | |  _  |   | | | |                         
-echo "     | |  | |  | |  |  \| || | | || | | || |  | |\ `--.    `| | | |/' |   | |_| |  ___   _ __ ___    ___  
-echo "     | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    | | |  /| |   |  _  | / _ \ | '_ ` _ \  / _ \ 
-echo "     \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   _| |_\ |_/ /   | | | || (_) || | | | | ||  __/ 
-echo "      \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \___/ \___/    \_| |_/ \___/ |_| |_| |_| \___| 
+echo         _    _  _____  _   _ ______  _____  _    _  _____     __   _____     _   _                          
+echo "      | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   /  | |  _  |   | | | |                         
+echo "      | |  | |  | |  |  \| || | | || | | || |  | |\ `--.    `| | | |/' |   | |_| |  ___   _ __ ___    ___  
+echo "      | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    | | |  /| |   |  _  | / _ \ | '_ ` _ \  / _ \ 
+echo "      \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   _| |_\ |_/ /   | | | || (_) || | | | | ||  __/ 
+echo "       \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \___/ \___/    \_| |_/ \___/ |_| |_| |_| \___| 
 echo.
-echo        You are selected WINDOWS 10 Home !
+echo            You are selected WINDOWS 10 Home !
 echo.
 echo                        [1] Continue Activation                      [2] Back to Menu
 echo.
@@ -213,13 +213,13 @@ if %op%==1 goto w10h
 if %op%==2 goto menu
 goto error2
 :w10h
-ping localhost -n 3 >nul
 slmgr /ipk TX9XD-98N7V-6WMQ6-BX7FG-H8Q99
 slmgr /skms kms8.msguides.com
 slmgr /ato
 cls
+echo.
 echo =====================================
-echo. Windows 10 is Activated Succesfully.
+echo  Windows 10 is Activated Succesfully.
 echo =====================================
 pause
 goto menu
@@ -228,14 +228,14 @@ goto menu
 :6
 cls
 echo.
-echo        _    _  _____  _   _ ______  _____  _    _  _____     __   _____    ______            
-echo "     | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   /  | |  _  |   | ___ \           
-echo "     | |  | |  | |  |  \| || | | || | | || |  | |\ `--.    `| | | |/' |   | |_/ /_ __  ___  
-echo "     | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    | | |  /| |   |  __/| '__|/ _ \ 
-echo "     \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   _| |_\ |_/ /   | |   | |  | (_) |
-echo "      \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \___/ \___/    \_|   |_|   \___/ 
+echo         _    _  _____  _   _ ______  _____  _    _  _____     __   _____    ______            
+echo "      | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   /  | |  _  |   | ___ \           
+echo "      | |  | |  | |  |  \| || | | || | | || |  | |\ `--.    `| | | |/' |   | |_/ /_ __  ___  
+echo "      | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    | | |  /| |   |  __/| '__|/ _ \ 
+echo "      \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   _| |_\ |_/ /   | |   | |  | (_) |
+echo "       \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \___/ \___/    \_|   |_|   \___/ 
 echo.
-echo        You are selected WINDOWS 10 Pro !
+echo            You are selected WINDOWS 10 Pro !
 echo.
 echo                        [1] Continue Activation                      [2] Back to Menu
 echo.
@@ -244,13 +244,13 @@ if %op%==1 goto w10p
 if %op%==2 goto menu
 goto error2
 :w10p
-ping localhost -n 3 >nul
 slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
 slmgr /skms kms8.msguides.com
 slmgr /ato
 cls
+echo.
 echo =====================================
-echo. Windows 10 is Activated Succesfully.
+echo  Windows 10 is Activated Succesfully.
 echo =====================================
 pause
 goto menu
@@ -266,7 +266,7 @@ echo "   | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    | | |  /| |   | 
 echo "   \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   _| |_\ |_/ /   | |___| (_| || |_| || (__| (_| || |_ | | _  
 echo "    \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \___/ \___/    \____/ \__,_| \__,_| \___|\__,_| \__||_|(_) 
 echo.
-echo        You are selected WINDOWS 10 Education !
+echo            You are selected WINDOWS 10 Education !
 echo.
 echo                        [1] Continue Activation                      [2]Back to Menu
 echo.
@@ -275,13 +275,13 @@ if %op%==1 goto w10ed
 if %op%==2 goto menu
 goto error2
 :w10ed
-ping localhost -n 3 >nul
 slmgr /ipk NW6C2-QMPVW-D7KKK-3GKT6-VCFB2
 slmgr /skms kms8.msguides.com
 slmgr /ato
 cls
+echo.
 echo =====================================
-echo. Windows 10 is Activated Succesfully.
+echo  Windows 10 is Activated Succesfully.
 echo =====================================
 pause
 goto menu
@@ -290,15 +290,14 @@ goto menu
 :8
 cls
 echo.
-echo       _    _  _____  _   _ ______  _____  _    _  _____     __   _____     _____        _                            
-echo "    | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   /  | |  _  |   |  ___|      | |                           
-echo "    | |  | |  | |  |  \| || | | || | | || |  | |\ `--.    `| | | |/' |   | |__  _ __  | |_  ___  _ __  _ __   _ __  
-echo "    | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    | | |  /| |   |  __|| '_ \ | __|/ _ \| '__|| '_ \ | '__| 
-echo "    \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   _| |_\ |_/ /   | |___| | | || |_|  __/| |   | |_) || | _  
-echo "     \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \___/ \___/    \____/|_| |_| \__|\___||_|   | .__/ |_|(_) 
-echo "                                                                                                      | |           
-echo "                                                                                                      |_|           
-echo        You are selected WINDOWS 10 Education !
+echo      _    _  _____  _   _ ______  _____  _    _  _____     __   _____     _____        _                            
+echo "   | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   /  | |  _  |   |  ___|      | |                           
+echo "   | |  | |  | |  |  \| || | | || | | || |  | |\ `--.    `| | | |/' |   | |__  _ __  | |_  ___  _ __  _ __   _ __  
+echo "   | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    | | |  /| |   |  __|| '_ \ | __|/ _ \| '__|| '_ \ | '__| 
+echo "   \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   _| |_\ |_/ /   | |___| | | || |_|  __/| |   | |_) || | _  
+echo "    \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \___/ \___/    \____/|_| |_| \__|\___||_|   | .__/ |_|(_) 
+echo "                                                                                                     | |           
+echo "          You are selected WINDOWS 10 Enterprise !                                                   |_|           
 echo.
 echo                        [1] Continue Activation                      [2] Back to Menu
 echo.
@@ -307,13 +306,13 @@ if %op%==1 goto w10en
 if %op%==2 goto menu
 goto error2
 :w10en
-ping localhost -n 3 >nul
 slmgr /ipk NPPR9-FWDCX-D2C8J-H872K-2YT43
 slmgr /skms kms8.msguides.com
 slmgr /ato
 cls
+echo.
 echo =====================================
-echo. Windows 10 is Activated Succesfully.
+echo  Windows 10 is Activated Succesfully.
 echo =====================================
 pause
 goto menu
@@ -322,30 +321,30 @@ goto menu
 :9
 cls
 echo.
-echo    _    _  _____  _   _ ______  _____  _    _  _____     _____     __       _   _                         
-echo " | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   |  _  |   /  |     | | | |                        
-echo " | |  | |  | |  |  \| || | | || | | || |  | |\ `--.     \ V /    `| |     | |_| |  ___   _ __ ___    ___ 
-echo " | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    / _ \     | |     |  _  | / _ \ | '_ ` _ \  / _ \
-echo " \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   | |_| | _ _| |_    | | | || (_) || | | | | ||  __/
-echo "  \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \_____/(_)\___/    \_| |_/ \___/ |_| |_| |_| \___|
+echo         _    _  _____  _   _ ______  _____  _    _  _____     _____     __       _   _                         
+echo "      | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   |  _  |   /  |     | | | |                        
+echo "      | |  | |  | |  |  \| || | | || | | || |  | |\ `--.     \ V /    `| |     | |_| |  ___   _ __ ___    ___ 
+echo "      | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    / _ \     | |     |  _  | / _ \ | '_ ` _ \  / _ \
+echo "      \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   | |_| | _ _| |_    | | | || (_) || | | | | ||  __/
+echo "       \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \_____/(_)\___/    \_| |_/ \___/ |_| |_| |_| \___|
 echo.
-echo        You are selected WINDOWS 8.1 Home !              NOT-WORKING
+echo            You are selected WINDOWS 8.1 Home !              Currently Not Working
 echo.
 echo                        [1] Continue Activation                      [2] Back to Menu
 echo.
 set /p op=">>> "
-if %op%==1 goto w8h
+if %op%==1 goto w8.1h
 if %op%==2 goto menu
 goto error2
-:w8h
-ping localhost -n 3 >nul
+:w8.1h
 slmgr /ipk 
 slmgr /skms kms8.msguides.com
 slmgr /ato
 cls
-echo =====================================
-echo. Windows 8.1 is Activated Succesfully.
-echo =====================================
+echo.
+echo ======================================
+echo  Windows 8.1 is Activated Succesfully.
+echo ======================================
 pause
 goto menu
 
@@ -353,30 +352,30 @@ goto menu
 :10
 cls
 echo.
-echo     _    _  _____  _   _ ______  _____  _    _  _____     _____     __      ______            
-echo "  | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   |  _  |   /  |     | ___ \           
-echo "  | |  | |  | |  |  \| || | | || | | || |  | |\ `--.     \ V /    `| |     | |_/ /_ __  ___  
-echo "  | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    / _ \     | |     |  __/| '__|/ _ \ 
-echo "  \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   | |_| | _ _| |_    | |   | |  | (_) |
-echo "   \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \_____/(_)\___/    \_|   |_|   \___/ 
+echo         _    _  _____  _   _ ______  _____  _    _  _____     _____     __      ______            
+echo "      | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   |  _  |   /  |     | ___ \           
+echo "      | |  | |  | |  |  \| || | | || | | || |  | |\ `--.     \ V /    `| |     | |_/ /_ __  ___  
+echo "      | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    / _ \     | |     |  __/| '__|/ _ \ 
+echo "      \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   | |_| | _ _| |_    | |   | |  | (_) |
+echo "       \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \_____/(_)\___/    \_|   |_|   \___/ 
 echo.
-echo        You are selected WINDOWS 8.1 Pro !              NOT-WORKING
+echo            You are selected WINDOWS 8.1 Pro !              Currently Not Working
 echo.
 echo                        [1] Continue Activation                      [2] Back to Menu
 echo.
 set /p op=">>> "
-if %op%==1 goto w8h
+if %op%==1 goto w8.1p
 if %op%==2 goto menu
 goto error2
-:w8h
-ping localhost -n 3 >nul
+:w8.1p
 slmgr /ipk 
 slmgr /skms kms8.msguides.com
 slmgr /ato
 cls
-echo =====================================
-echo. Windows 8.1 is Activated Succesfully.
-echo =====================================
+echo.
+echo ======================================
+echo  Windows 8.1 is Activated Succesfully.
+echo ======================================
 pause
 goto menu
 
@@ -384,30 +383,30 @@ goto menu
 :11
 cls
 echo.
-echo    _    _  _____  _   _ ______  _____  _    _  _____     _____     __       _   _                         
-echo " | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   |  _  |   /  |     | | | |                        
-echo " | |  | |  | |  |  \| || | | || | | || |  | |\ `--.     \ V /    `| |     | |_| |  ___   _ __ ___    ___ 
-echo " | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    / _ \     | |     |  _  | / _ \ | '_ ` _ \  / _ \
-echo " \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   | |_| | _ _| |_    | | | || (_) || | | | | ||  __/
-echo "  \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \_____/(_)\___/    \_| |_/ \___/ |_| |_| |_| \___|
+echo      _    _  _____  _   _ ______  _____  _    _  _____     _____     __      _____     _                     _    _    
+echo "   | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   |  _  |   /  |    |  ___|   | |                   | |  (_)   
+echo "   | |  | |  | |  |  \| || | | || | | || |  | |\ `--.     \ V /    `| |    | |__   __| | _   _   ___  __ _ | |_  _    
+echo "   | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    / _ \     | |    |  __| / _` || | | | / __|/ _` || __|| |   
+echo "   \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   | |_| | _ _| |_   | |___| (_| || |_| || (__| (_| || |_ | | _ 
+echo "    \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \_____/(_)\___/   \____/ \__,_| \__,_| \___|\__,_| \__||_|(_)
 echo.
-echo        You are selected WINDOWS 8.1 Home !              NOT-WORKING
+echo            You are selected WINDOWS 8.1 Education !              Currently Not Working
 echo.
 echo                        [1] Continue Activation                      [2] Back to Menu
 echo.
 set /p op=">>> "
-if %op%==1 goto w8h
+if %op%==1 goto w8.1ed
 if %op%==2 goto menu
 goto error2
-:w8h
-ping localhost -n 3 >nul
+:w8.1ed
 slmgr /ipk 
 slmgr /skms kms8.msguides.com
 slmgr /ato
 cls
-echo =====================================
-echo. Windows 8.1 is Activated Succesfully.
-echo =====================================
+echo.
+echo ======================================
+echo  Windows 8.1 is Activated Succesfully.
+echo ======================================
 pause
 goto menu
 
@@ -415,30 +414,30 @@ goto menu
 :12
 cls
 echo.
-echo    _    _  _____  _   _ ______  _____  _    _  _____     _____     __       _   _                         
-echo " | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   |  _  |   /  |     | | | |                        
-echo " | |  | |  | |  |  \| || | | || | | || |  | |\ `--.     \ V /    `| |     | |_| |  ___   _ __ ___    ___ 
-echo " | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    / _ \     | |     |  _  | / _ \ | '_ ` _ \  / _ \
-echo " \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   | |_| | _ _| |_    | | | || (_) || | | | | ||  __/
-echo "  \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \_____/(_)\___/    \_| |_/ \___/ |_| |_| |_| \___|
-echo.
-echo        You are selected WINDOWS 8.1 Home !              NOT-WORKING
+echo      _    _  _____  _   _ ______  _____  _    _  _____     _____     __      _____        _                           
+echo "   | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   |  _  |   /  |    |  ___|      | |                          
+echo "   | |  | |  | |  |  \| || | | || | | || |  | |\ `--.     \ V /    `| |    | |__  _ __  | |_  ___  _ __  _ __   _ __ 
+echo "   | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    / _ \     | |    |  __|| '_ \ | __|/ _ \| '__|| '_ \ | '__|
+echo "   \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   | |_| | _ _| |_   | |___| | | || |_|  __/| |   | |_) || | _ 
+echo "    \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \_____/(_)\___/   \____/|_| |_| \__|\___||_|   | .__/ |_|(_)
+echo "                                                                                                        | |          
+echo "          You are selected WINDOWS 8.1 Enterprise !              Currently Not Working                  |_|          
 echo.
 echo                        [1] Continue Activation                      [2] Back to Menu
 echo.
 set /p op=">>> "
-if %op%==1 goto w8h
+if %op%==1 goto w8.1en
 if %op%==2 goto menu
 goto error2
-:w8h
-ping localhost -n 3 >nul
+:w8.1en
 slmgr /ipk 
 slmgr /skms kms8.msguides.com
 slmgr /ato
 cls
-echo =====================================
-echo. Windows 8.1 is Activated Succesfully.
-echo =====================================
+echo.
+echo ======================================
+echo  Windows 8.1 is Activated Succesfully.
+echo ======================================
 pause
 goto menu
 
@@ -446,14 +445,14 @@ goto menu
 :13
 cls
 echo.
-echo        _    _  _____  _   _ ______  _____  _    _  _____     _____     _   _                         
-echo "     | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   |  _  |   | | | |                        
-echo "     | |  | |  | |  |  \| || | | || | | || |  | |\ `--.     \ V /    | |_| |  ___   _ __ ___    ___ 
-echo "     | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    / _ \    |  _  | / _ \ | '_ ` _ \  / _ \
-echo "     \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   | |_| |   | | | || (_) || | | | | ||  __/
-echo "      \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \_____/   \_| |_/ \___/ |_| |_| |_| \___|
+echo         _    _  _____  _   _ ______  _____  _    _  _____     _____     _   _                         
+echo "      | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   |  _  |   | | | |                        
+echo "      | |  | |  | |  |  \| || | | || | | || |  | |\ `--.     \ V /    | |_| |  ___   _ __ ___    ___ 
+echo "      | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    / _ \    |  _  | / _ \ | '_ ` _ \  / _ \
+echo "      \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   | |_| |   | | | || (_) || | | | | ||  __/
+echo "       \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \_____/   \_| |_/ \___/ |_| |_| |_| \___|
 echo.
-echo        You are selected WINDOWS 8 Home !              NOT-WORKING
+echo            You are selected WINDOWS 8 Home !              Currently Not Working
 echo.
 echo                        [1] Continue Activation                      [2] Back to Menu
 echo.
@@ -462,13 +461,13 @@ if %op%==1 goto w8h
 if %op%==2 goto menu
 goto error2
 :w8h
-ping localhost -n 3 >nul
 slmgr /ipk 
 slmgr /skms kms8.msguides.com
 slmgr /ato
 cls
+echo.
 echo =====================================
-echo. Windows 8 is Activated Succesfully.
+echo  Windows 8 is Activated Succesfully.
 echo =====================================
 pause
 goto menu
@@ -477,29 +476,29 @@ goto menu
 :14
 cls
 echo.
-echo        _    _  _____  _   _ ______  _____  _    _  _____     _____    ______            
-echo "     | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   |  _  |   | ___ \           
-echo "     | |  | |  | |  |  \| || | | || | | || |  | |\ `--.     \ V /    | |_/ /_ __  ___  
-echo "     | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    / _ \    |  __/| '__|/ _ \ 
-echo "     \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   | |_| |   | |   | |  | (_) |
-echo "      \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \_____/   \_|   |_|   \___/ 
+echo         _    _  _____  _   _ ______  _____  _    _  _____     _____    ______            
+echo "      | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   |  _  |   | ___ \           
+echo "      | |  | |  | |  |  \| || | | || | | || |  | |\ `--.     \ V /    | |_/ /_ __  ___  
+echo "      | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    / _ \    |  __/| '__|/ _ \ 
+echo "      \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   | |_| |   | |   | |  | (_) |
+echo "       \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \_____/   \_|   |_|   \___/ 
 echo.
-echo        You are selected WINDOWS 8 Pro !              NOT-WORKING
+echo            You are selected WINDOWS 8 Pro !              Currently Not Working
 echo.
-echo                  [1] Continue Activation                      [2] Back to Menu
+echo                        [1] Continue Activation                      [2] Back to Menu
 echo.
 set /p op=">>> "
 if %op%==1 goto w8p
 if %op%==2 goto menu
 goto error2
 :w8p
-ping localhost -n 3 >nul
 slmgr /ipk 
 slmgr /skms kms8.msguides.com
 slmgr /ato
 cls
+echo.
 echo =====================================
-echo. Windows 8 is Activated Succesfully.
+echo  Windows 8 is Activated Succesfully.
 echo =====================================
 pause
 goto menu
@@ -507,14 +506,14 @@ goto menu
 :15
 cls
 echo.
-echo         _    _  _____  _   _ ______  _____  _    _  _____     _____      _____      _                      _      
-echo "      | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   |  _  |    |  ___|    | |                    | |     
-echo "      | |  | |  | |  |  \| || | | || | | || |  | |\ `--.     \ V /     | |__    __| | _   _   ___   __ _ | |_    
-echo "      | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    / _ \     |  __|  / _` || | | | / __| / _` || __|   
-echo "      \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   | |_| |    | |___ | (_| || |_| || (__ | (_| || |_  _ 
-echo "       \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \_____/    \____/  \__,_| \__,_| \___| \__,_| \__|(_)
-echo "                                                                              
-echo "      You are selected WINDOWS 8 Enterprise !             NOT-WORKING         
+echo      _    _  _____  _   _ ______  _____  _    _  _____     _____      _____      _                      _      
+echo "   | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   |  _  |    |  ___|    | |                    | |     
+echo "   | |  | |  | |  |  \| || | | || | | || |  | |\ `--.     \ V /     | |__    __| | _   _   ___   __ _ | |_    
+echo "   | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    / _ \     |  __|  / _` || | | | / __| / _` || __|   
+echo "   \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   | |_| |    | |___ | (_| || |_| || (__ | (_| || |_  _ 
+echo "    \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \_____/    \____/  \__,_| \__,_| \___| \__,_| \__|(_)
+echo.
+echo            You are selected WINDOWS 8 Education !             Currently Not Working         
 echo.
 echo                        [1] Continue Activation                      [2] Back to Menu
 echo.
@@ -523,13 +522,13 @@ if %op%==1 goto w8ed
 if %op%==2 goto menu
 goto error2
 :w8ed
-ping localhost -n 3 >nul
 slmgr /ipk 
 slmgr /skms kms8.msguides.com
 slmgr /ato
 cls
+echo.
 echo =====================================
-echo. Windows 8 is Activated Succesfully.
+echo  Windows 8 is Activated Succesfully.
 echo =====================================
 pause
 goto menu
@@ -538,14 +537,14 @@ goto menu
 :16
 cls
 echo.
-echo         _    _  _____  _   _ ______  _____  _    _  _____     _____     _____        _                           
-echo "      | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   |  _  |   |  ___|      | |                          
-echo "      | |  | |  | |  |  \| || | | || | | || |  | |\ `--.     \ V /    | |__  _ __  | |_  ___  _ __  _ __   _ __ 
-echo "      | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    / _ \    |  __|| '_ \ | __|/ _ \| '__|| '_ \ | '__|
-echo "      \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   | |_| |   | |___| | | || |_|  __/| |   | |_) || | _ 
-echo "       \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \_____/   \____/|_| |_| \__|\___||_|   | .__/ |_|(_)
-echo "                                                                                                   | |          
-echo "      You are selected WINDOWS 8 Enterprise !             NOT-WORKING                              |_|          
+echo      _    _  _____  _   _ ______  _____  _    _  _____     _____     _____        _                           
+echo "   | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   |  _  |   |  ___|      | |                          
+echo "   | |  | |  | |  |  \| || | | || | | || |  | |\ `--.     \ V /    | |__  _ __  | |_  ___  _ __  _ __   _ __ 
+echo "   | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \    / _ \    |  __|| '_ \ | __|/ _ \| '__|| '_ \ | '__|
+echo "   \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   | |_| |   | |___| | | || |_|  __/| |   | |_) || | _ 
+echo "    \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \_____/   \____/|_| |_| \__|\___||_|   | .__/ |_|(_)
+echo "                                                                                                | |          
+echo "          You are selected WINDOWS 8 Enterprise !             Currently Not Working             |_|          
 echo.
 echo                        [1] Continue Activation                      [2] Back to Menu
 echo.
@@ -554,13 +553,13 @@ if %op%==1 goto w8en
 if %op%==2 goto menu
 goto error2
 :w8en
-ping localhost -n 3 >nul
 slmgr /ipk 
 slmgr /skms kms8.msguides.com
 slmgr /ato
 cls
+echo.
 echo =====================================
-echo. Windows 8 is Activated Succesfully.
+echo  Windows 8 is Activated Succesfully.
 echo =====================================
 pause
 goto menu
@@ -569,14 +568,14 @@ goto menu
 :17
 cls
 echo.
-echo        _    _  _____  _   _ ______  _____  _    _  _____     ______    _   _                         
-echo "     | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   |___  /   | | | |                        
-echo "     | |  | |  | |  |  \| || | | || | | || |  | |\ `--.       / /    | |_| |  ___   _ __ ___    ___ 
-echo "     | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \     / /     |  _  | / _ \ | '_ ` _ \  / _ \
-echo "     \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   ./ /      | | | || (_) || | | | | ||  __/
-echo "      \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \_/       \_| |_/ \___/ |_| |_| |_| \___|
+echo         _    _  _____  _   _ ______  _____  _    _  _____     ______    _   _                         
+echo "      | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   |___  /   | | | |                        
+echo "      | |  | |  | |  |  \| || | | || | | || |  | |\ `--.       / /    | |_| |  ___   _ __ ___    ___ 
+echo "      | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \     / /     |  _  | / _ \ | '_ ` _ \  / _ \
+echo "      \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   ./ /      | | | || (_) || | | | | ||  __/
+echo "       \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \_/       \_| |_/ \___/ |_| |_| |_| \___|
 echo.
-echo        You are selected WINDOWS 7 Home !              NOT-WORKING
+echo            You are selected WINDOWS 7 Home !              Currently Not Working
 echo.
 echo                        [1] Continue Activation                      [2] Back to Menu
 echo.
@@ -585,13 +584,13 @@ if %op%==1 goto w7h
 if %op%==2 goto menu
 goto error2
 :w7h
-ping localhost -n 3 >nul
 slmgr /ipk 
 slmgr /skms kms8.msguides.com
 slmgr /ato
 cls
+echo.
 echo =====================================
-echo. Windows 7 is Activated Succesfully.
+echo  Windows 7 is Activated Succesfully.
 echo =====================================
 pause
 goto menu
@@ -601,14 +600,14 @@ goto menu
 :18
 cls
 echo.
-echo        _    _  _____  _   _ ______  _____  _    _  _____     ______   ______            
-echo "     | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   |___  /   | ___ \           
-echo "     | |  | |  | |  |  \| || | | || | | || |  | |\ `--.       / /    | |_/ /_ __  ___  
-echo "     | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \     / /     |  __/| '__|/ _ \ 
-echo "     \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   ./ /      | |   | |  | (_) |
-echo "      \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \_/       \_|   |_|   \___/ 
+echo         _    _  _____  _   _ ______  _____  _    _  _____     ______   ______            
+echo "      | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   |___  /   | ___ \           
+echo "      | |  | |  | |  |  \| || | | || | | || |  | |\ `--.       / /    | |_/ /_ __  ___  
+echo "      | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \     / /     |  __/| '__|/ _ \ 
+echo "      \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   ./ /      | |   | |  | (_) |
+echo "       \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \_/       \_|   |_|   \___/ 
 echo.
-echo        You are selected WINDOWS 7 Pro !              NOT-WORKING
+echo            You are selected WINDOWS 7 Pro !              Currently Not Working
 echo.
 echo                        [1] Continue Activation                      [2] Back to Menu
 echo.
@@ -617,13 +616,13 @@ if %op%==1 goto w7p
 if %op%==2 goto menu
 goto error2
 :w7p
-ping localhost -n 3 >nul
 slmgr /ipk 
 slmgr /skms kms8.msguides.com
 slmgr /ato
 cls
+echo.
 echo =====================================
-echo. Windows 7 is Activated Succesfully.
+echo  Windows 7 is Activated Succesfully.
 echo =====================================
 pause
 goto menu
@@ -632,14 +631,14 @@ goto menu
 :19
 cls
 echo.
-echo       _    _  _____  _   _ ______  _____  _    _  _____     ______    _   _  _  _    _                    _        
-echo "    | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   |___  /   | | | || || |  (_)                  | |       
-echo "    | |  | |  | |  |  \| || | | || | | || |  | |\ `--.       / /    | | | || || |_  _  _ __ ___    __ _ | |_  ___ 
-echo "    | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \     / /     | | | || || __|| || '_ ` _ \  / _` || __|/ _ \
-echo "    \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   ./ /      | |_| || || |_ | || | | | | || (_| || |_|  __/
-echo "     \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \_/        \___/ |_| \__||_||_| |_| |_| \__,_| \__|\___|
+echo      _    _  _____  _   _ ______  _____  _    _  _____     ______    _   _  _  _    _                    _        
+echo "   | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   |___  /   | | | || || |  (_)                  | |       
+echo "   | |  | |  | |  |  \| || | | || | | || |  | |\ `--.       / /    | | | || || |_  _  _ __ ___    __ _ | |_  ___ 
+echo "   | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \     / /     | | | || || __|| || '_ ` _ \  / _` || __|/ _ \
+echo "   \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   ./ /      | |_| || || |_ | || | | | | || (_| || |_|  __/
+echo "    \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \_/        \___/ |_| \__||_||_| |_| |_| \__,_| \__|\___|
 echo.
-echo        You are selected WINDOWS 7 Ultimate !              NOT-WORKING
+echo            You are selected WINDOWS 7 Ultimate !              Currently Not Working
 echo.
 echo                        [1] Continue Activation                      [2] Back to Menu
 echo.
@@ -648,13 +647,13 @@ if %op%==1 goto w7ul
 if %op%==2 goto menu
 goto error2
 :w7ul
-ping localhost -n 3 >nul
 slmgr /ipk 
 slmgr /skms kms8.msguides.com
 slmgr /ato
 cls
+echo.
 echo =====================================
-echo. Windows 7 is Activated Succesfully.
+echo  Windows 7 is Activated Succesfully.
 echo =====================================
 pause
 goto menu
@@ -663,14 +662,14 @@ goto menu
 :20
 cls
 echo.
-echo         _    _  _____  _   _ ______  _____  _    _  _____     ______    _____        _                           
-echo "      | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   |___  /   |  ___|      | |                          
-echo "      | |  | |  | |  |  \| || | | || | | || |  | |\ `--.       / /    | |__  _ __  | |_  ___  _ __  _ __   _ __ 
-echo "      | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \     / /     |  __|| '_ \ | __|/ _ \| '__|| '_ \ | '__|
-echo "      \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   ./ /      | |___| | | || |_|  __/| |   | |_) || | _ 
-echo "       \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \_/       \____/|_| |_| \__|\___||_|   | .__/ |_|(_)
-echo "                                                                                                   | |          
-echo "          You are selected WINDOWS 7 Enterprise !            NOT-WORKING                           |_|         
+echo      _    _  _____  _   _ ______  _____  _    _  _____     ______    _____        _                           
+echo "   | |  | ||_   _|| \ | ||  _  \|  _  || |  | |/  ___|   |___  /   |  ___|      | |                          
+echo "   | |  | |  | |  |  \| || | | || | | || |  | |\ `--.       / /    | |__  _ __  | |_  ___  _ __  _ __   _ __ 
+echo "   | |/\| |  | |  | . ` || | | || | | || |/\| | `--. \     / /     |  __|| '_ \ | __|/ _ \| '__|| '_ \ | '__|
+echo "   \  /\  / _| |_ | |\  || |/ / \ \_/ /\  /\  //\__/ /   ./ /      | |___| | | || |_|  __/| |   | |_) || | _ 
+echo "    \/  \/  \___/ \_| \_/|___/   \___/  \/  \/ \____/    \_/       \____/|_| |_| \__|\___||_|   | .__/ |_|(_)
+echo "                                                                                                | |          
+echo "          You are selected WINDOWS 7 Enterprise !            Currently Not Working              |_|         
 echo.
 echo                        [1] Continue Activation                      [2] Back to Menu
 echo.
@@ -679,13 +678,13 @@ if %op%==1 goto w7en
 if %op%==2 goto menu
 goto error2
 :w7en
-ping localhost -n 3 >nul
 slmgr /ipk 
 slmgr /skms kms8.msguides.com
 slmgr /ato
 cls
+echo.
 echo =====================================
-echo. Windows 7 is Activated Succesfully.
+echo  Windows 7 is Activated Succesfully.
 echo =====================================
 pause
 goto menu
