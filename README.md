@@ -3,7 +3,7 @@ This is my Windows Activation Program. With this program, you can activate Windo
 You can see pictures below.
 
 ## ⚙️Usage
-* Firstly you need run this program as administrator.
+* First you need to run this program as an administrator.
 * You must write the number that is written in front of the specific Windows version and click enter.  
 * Then, if you have chosen the correct version, you must type 1 ("Continue Activation" option) to continue with the activation. 
 * After that, you should get 3 popups with the status successful, if you got these statuses, your Windows has been successfully activated.
